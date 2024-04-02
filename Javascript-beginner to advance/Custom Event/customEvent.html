@@ -1,0 +1,38 @@
+<!-- Custom Event Codint Ex: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Event</title>
+</head>
+<body>
+
+    <div>
+
+        <button>Play</button>
+
+    </div>
+    
+
+    <script>
+
+        const evt = new Event("chacha");
+
+        document.querySelector("button")
+
+        .addEventListener("chacha", function() {
+
+            alert("cha Event hua");
+        })
+
+        document.querySelector("button").dispatchEvent(evt);
+
+    </script>
+
+</body>
+</html>
+
+
+<!-- My Journey Share With Github -->
